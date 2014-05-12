@@ -1,0 +1,27 @@
+{
+    "name": "localdisk/backlog-api-php",
+    "type": "library",
+    "description": "A simple, Object Oriented wrapper for Backlog API written with PHP5.",
+    "homepage": "https://github.com/localdisk/backlog-api-php",
+    "keywords": ["Backlog", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "localdisk",
+            "email": "smoochynet@gmail.com",
+            "homepage": "http://localdisk.hatenablog.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backlog\\": "src/"
+        }
+    }
+}
